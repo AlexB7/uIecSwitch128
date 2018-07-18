@@ -1,0 +1,8 @@
+
+HEADER APPLICATION "uIecSwitch128" "uIecSwitch" "V1.2" {
+	dostype USR
+	author "ShadowM"
+	info "Switch disk images on a uIEC or sd2iec.  Supports GEOS 128 40/80 columns."
+	mode any
+	icon "icon-program.bin"
+}
