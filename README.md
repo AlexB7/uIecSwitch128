@@ -1,5 +1,6 @@
 # uIecSwitch128
 Written by Glenn Holmer (a.k.a "Shadow", a.k.a "Cenbe").
+
 https://www.lyonlabs.org/commodore/onrequest/geos/index.html#uIecSwitch
 
 GEOS 128 support added by Alex Burger.
@@ -42,7 +43,7 @@ The program icon is contained in icon-program.bin.  If the .png/.pcx source imag
 
 	sp65 -v -r icon-program.pcx -c geos-icon -w icon-program.bin,format=bin
 
-The following will compile, resulting in a regular program file which can then be converted using Convert in GEOS.
+The following will compile, resulting in a program file which can then be converted using Convert in GEOS or copied directly using DirMaster.  See the Installation section.
 
 	ca65 -t geos-cbm uIecSwitch128S.s
 	grc65 -t geos-cbm uIecSwitchG.grc
