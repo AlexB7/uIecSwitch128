@@ -1,14 +1,25 @@
 # uIecSwitch128
 Written by Glenn Holmer (a.k.a "Shadow", a.k.a "Cenbe").
+https://www.lyonlabs.org/commodore/onrequest/geos/index.html#uIecSwitch
 
 GEOS 128 support added by Alex Burger.
+
+July 20th, 2018
+
 
 ## Overview
 
 uIecSwitch128 is a GEOS 128 application for switching between disk images on a uIEC or sd2iec drive.
 
 
+## Installing
+
+Inside the bin folder is a cc65 compiled version in GEOS CONVERT format which can be copied directly to a .d64, d71 or .d81 image file using DirMaster or another Commodore disk imaging program.  When using DirMaster, the file will be automatically converted to GEOS format but with other utilities you may have to manually convert to GEOS format using CONVERT 2.5.
+
+
 ## Compiling
+
+Compiling requires the cc65 6502 compiler which is available from https://cc65.github.io/cc65/.
 
 The following libraries are required from the GOES 2.0 source code at https://github.com/mist64/geos/tree/master/inc
 
